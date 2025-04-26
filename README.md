@@ -5,14 +5,33 @@ O projeto consiste na criação de uma tela de mapa com animação de sprite bas
 
 ## Ferramentas utilizadas
 
+## Ferramentas utilizadas
+
 <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="SCSS" />
-  <img src="https://img.shields.io/badge/CSS%20Modules-264de4?style=for-the-badge&logo=css3&logoColor=white" alt="CSS Modules" />
-  <img src="https://img.shields.io/badge/i18next-26A69A?style=for-the-badge&logo=polymerproject&logoColor=white" alt="i18next" />
-  <img src="https://img.shields.io/badge/React%20Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" alt="React Router" />
+  <a href="https://vitejs.dev/" target="_blank">
+    <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  </a>
+  <a href="https://react.dev/" target="_blank">
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  </a>
+  <a href="https://www.typescriptlang.org/" target="_blank">
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  </a>
+  <a href="https://sass-lang.com/" target="_blank">
+    <img src="https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="SCSS" />
+  </a>
+  <a href="https://github.com/css-modules/css-modules" target="_blank">
+    <img src="https://img.shields.io/badge/CSS%20Modules-264de4?style=for-the-badge&logo=css3&logoColor=white" alt="CSS Modules" />
+  </a>
+  <a href="https://www.i18next.com/" target="_blank">
+    <img src="https://img.shields.io/badge/i18next-26A69A?style=for-the-badge&logo=polymerproject&logoColor=white" alt="i18next" />
+  </a>
+  <a href="https://leafletjs.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white" alt="Leaflet" />
+  </a>
+  <a href="https://www.openstreetmap.org/" target="_blank">
+    <img src="https://img.shields.io/badge/OpenStreetMap-7EBC6F?style=for-the-badge&logo=openstreetmap&logoColor=white" alt="OpenStreetMap" />
+  </a>
 </div>
 
 ## Instalação inicial

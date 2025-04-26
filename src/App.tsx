@@ -1,11 +1,7 @@
+import { Home } from "./pages/Home"
 
 function App() {
-
-  return (
-    <>
-      <p>3d Car</p>
-    </>
-  )
+  return <Home />;
 }
 
 export default App
