@@ -3,10 +3,11 @@ import carSprite from '../assets/images/cars.png';
 
 export const CarIcon = (direction: number) => {
   const totalFrames = 120;
-  const frameWidth = 30;
-  const frameHeight = 30;
+  const frameWidth = 20;
+  const frameHeight = 20;
 
-  const frame = Math.round(direction / 3) % totalFrames;
+  const correctedDirection = (-direction + 360) % 360;
+  const frame = Math.round(correctedDirection / 3) % totalFrames;
 
   return new DivIcon({
     className: '',
@@ -18,7 +19,7 @@ export const CarIcon = (direction: number) => {
       background-position: -${frame * frameWidth}px 0;
     "></div>`,
     iconSize: [frameWidth, frameHeight],
-    iconAnchor: [frameWidth / 2, frameHeight / 2],
+    iconAnchor: [frameWidth / 2, frameHeight / 8],
     popupAnchor: [0, -frameHeight / 2],
   });
 };
