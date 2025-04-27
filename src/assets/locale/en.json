@@ -1,0 +1,11 @@
+{
+  "translation": {
+    "title": "Car Map 3D",
+    "home": {
+      "select_route": "Choose a route",
+      "route": "Route",
+      "startRouteMessage": "Start route",
+      "stopRouteMessage": "Stop"
+    }
+  }
+}
