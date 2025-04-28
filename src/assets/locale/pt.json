@@ -5,7 +5,8 @@
       "select_route": "Selecione a rota desejada: ",
       "route": "Rota",
       "startRouteMessage": "Iniciar rota",
-      "stopRouteMessage": "Parar"
+      "stopRouteMessage": "Parar",
+      "colorCar": "Cor"
     }
   }
 }

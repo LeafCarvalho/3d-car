@@ -12,6 +12,13 @@ type RouteSelectorProps = {
 export const RouteSelector = ({ selectedCourse, setSelectedCourse, startAnimation, stopAnimation, isPlaying }: RouteSelectorProps) => {
   const { t } = useTranslation();
 
+  const handleStart = () => {
+    startAnimation();
+    setTimeout(() => {
+      window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    }, 100);
+  };
+
   return (
     <div className="route-selector">
       <label className="select-route-message">{t('home.select_route')}</label>
@@ -29,7 +36,7 @@ export const RouteSelector = ({ selectedCourse, setSelectedCourse, startAnimatio
           </option>
         ))}
       </select>
-      <button className="start" onClick={startAnimation} disabled={isPlaying}>
+      <button className="start" onClick={handleStart} disabled={isPlaying}>
         {t('home.startRouteMessage')}
       </button>
       <button className="stop" onClick={stopAnimation} disabled={!isPlaying}>

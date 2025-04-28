@@ -1,6 +1,9 @@
+import { useTranslation } from "react-i18next";
 import gpsJson from "../../data/frontend_data_gps.json";
 
 export const CarInformations = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="car-informations">
       <h3 className="car-informations__plate">{gpsJson.vehicle.plate}</h3>
@@ -15,7 +18,7 @@ export const CarInformations = () => {
         <strong>VIN:</strong> {gpsJson.vehicle.vin}
       </div>
       <div className="car-informations__info">
-        <strong>Cor:</strong> 
+        <strong>{t('home.colorCar')}:</strong> 
         <span 
           className="car-informations__color" 
           style={{ backgroundColor: gpsJson.vehicle.color }}
