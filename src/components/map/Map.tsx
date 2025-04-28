@@ -1,16 +1,10 @@
-import { LatLngTuple } from 'leaflet';
+import { MapaProps } from '../../types/map';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { CarIcon } from '../../utils/carIcon';
 import { FollowCar } from '../follow-car/followCar';
+import { CarInformations } from "../car-informations/carInformations"
 
-interface MapaProps {
-  position: LatLngTuple;
-  direction: number;
-  vehicleStatus: 'moving' | 'stopped_on' | 'stopped_off';
-  zoom?: number;
-}
-
-export const Mapa = ({ position, direction, vehicleStatus, zoom = 18 }: MapaProps) => {
+export const Map = ({ position, direction, vehicleStatus, zoom = 18 }: MapaProps) => {
   return (
     <MapContainer
       center={position}
@@ -27,7 +21,7 @@ export const Mapa = ({ position, direction, vehicleStatus, zoom = 18 }: MapaProp
 
       <Marker position={position} icon={CarIcon(direction, vehicleStatus)}>
         <Popup>
-          Localização Atual
+          <CarInformations />
         </Popup>
       </Marker>
     </MapContainer>

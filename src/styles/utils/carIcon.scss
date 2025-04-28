@@ -1,0 +1,15 @@
+.car {
+  transition: transform 0.3s ease, filter 0.3s ease;
+
+  &.moving {
+    filter: drop-shadow(0 0 15px limegreen) drop-shadow(0 0 30px limegreen);
+  }
+
+  &.stopped_on {
+    filter: drop-shadow(0 0 15px yellow) drop-shadow(0 0 30px yellow);
+  }
+
+  &.stopped_off {
+    filter: drop-shadow(0 0 15px gray) drop-shadow(0 0 30px gray);
+  }
+}

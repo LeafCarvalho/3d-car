@@ -1,10 +1,6 @@
 import { useEffect } from 'react';
 import { useMap } from 'react-leaflet';
-import { LatLngTuple } from 'leaflet';
-
-interface FollowCarProps {
-  position: LatLngTuple;
-}
+import { FollowCarProps } from '../../types/followCar';
 
 export const FollowCar = ({ position }: FollowCarProps) => {
   const map = useMap();

@@ -1,0 +1,61 @@
+.car-informations {
+  text-align: center;
+  min-width: 200px;
+  padding: 10px;
+
+  &__plate {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+
+  &__image-wrapper {
+    margin-bottom: 10px;
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  &__info {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    color: #555;
+
+    strong {
+      font-weight: bold;
+      color: #222;
+    }
+  }
+
+  &__color {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-left: 5px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    vertical-align: middle;
+  }
+
+  @media (min-width: 600px) {
+    min-width: 250px;
+
+    &__plate {
+      font-size: 1.5rem;
+    }
+
+    &__info {
+      font-size: 1rem;
+    }
+
+    &__color {
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
