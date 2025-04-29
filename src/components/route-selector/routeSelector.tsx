@@ -1,13 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import gpsJson from "../../data/frontend_data_gps.json"
-
-type RouteSelectorProps = {
-  selectedCourse: number;
-  setSelectedCourse: (course: number) => void;
-  startAnimation: () => void;
-  stopAnimation: () => void;
-  isPlaying: boolean;
-};
+import { RouteSelectorProps } from '../../types/routeSelector';
 
 export const RouteSelector = ({ selectedCourse, setSelectedCourse, startAnimation, stopAnimation, isPlaying }: RouteSelectorProps) => {
   const { t } = useTranslation();
