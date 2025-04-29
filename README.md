@@ -43,6 +43,7 @@ O projeto consiste na criação de uma tela de mapa com animação de sprite bas
 
 ## Estrutura de pastas
 
+```plaintext
 ├── public/
 ├── src/
 │   ├── assets/
@@ -60,6 +61,7 @@ O projeto consiste na criação de uma tela de mapa com animação de sprite bas
 ├── package.json
 ├── tsconfig.json
 └── vite.config.ts
+```
 
 ## Decisões de Arquitetura
 
