@@ -1,6 +1,6 @@
-# 3D Car - Softruck
+# 3D Car
 
-Projeto desenvolvido para teste técnico da Softruck, utilizando React + Vite + Typescript, CSS Modules e SCSS. </br>
+Projeto desenvolvido para teste técnico, utilizando React + Vite + Typescript, CSS Modules e SCSS. </br>
 O projeto consiste na criação de uma tela de mapa com animação de sprite baseado na direção de um carro, com funcionalidades extras como seleção de trajetos e controle de velocidade.
 
 ## Ferramentas utilizadas e motivos para uso
